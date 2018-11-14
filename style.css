@@ -1,0 +1,610 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b31325;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+body {
+    background: #111;
+}
+
+main {
+    width: calc(100% - 300px);
+    display: inline-block;
+    float: right;
+    background: #111;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+#downloadCenter {
+    width: 100%;
+    height: 75px;
+    background: #000;
+    color: #b31325;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    line-height: 75px;
+    box-shadow: #000 5px 0px 15px;
+}
+
+#downloadCenter h1 {
+    padding-left: 150px;
+}
+
+#romInfo {
+    width: 96%;
+    margin: 25px 1%;
+    padding: 20px 1%;
+    background: #000;
+    border-radius: 5px;
+}
+
+#romInfo h1 {
+    color: #b31325;
+    padding: 30px 25px;
+    font-size: 1.5em;
+    font-weight: 8;
+}
+
+#romInfo h2 {
+    color: #fff;
+    font-weight: 8;
+    margin-left: 25px;
+}
+
+#romInfo h2 a{
+    color: #fff;
+}
+
+.romVersions {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.romVersion {
+    border-radius: 30px;
+    padding: 10px 5px;
+    margin-right: -5px;
+    margin-left: -5px;
+    background: #b31325;
+}
+
+.romVersion img {
+    width: 25px;
+    display: inline-block;
+}
+
+.romVersion h3 {
+    display: inline-block;
+}
+
+.rom {
+    width: 96%;
+    margin: 25px 1%;
+    padding: 20px 1%;
+    background: #000;
+    border-radius: 5px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.upper {
+    height: 50px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.arrow {
+    float: right;
+    color: #b31325;
+    padding-top: 10px;
+}
+
+.upper img {
+    display: inline-block;
+    width: 25px;
+    height: 12.5px;
+    background: #000;
+    padding: 10px;
+    border-radius: 20px;
+    vertical-align: top;
+}
+
+.upperText {
+    display: inline-block;
+    color: #b31325;
+    line-height: 1.5em;
+}
+
+.upperText h1 {
+    font-weight: 600;
+}
+
+.upperText h3 {
+    color: #AAA;
+}
+
+.expand {
+    transition: 300ms;
+    animation-name: expand;
+    animation-duration: 300ms;
+    height: auto;
+}
+
+.table {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    color: #FFF;
+    margin-left: 5%;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.table ul {}
+
+.table ul li {
+    border: #B51325 solid 1px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(70% / 4.2);
+    border-bottom: none;
+}
+
+.table ul li h1 {
+    background: #B31325;
+    padding: 20px 0px;
+    color: #000;
+    font-weight: 800;
+}
+
+.table ul li h3 {
+    border-bottom: 1px solid #b31325;
+    margin-top: 30px;
+    height: 60px;
+}
+
+.table ul li h3 span {
+    height: 60px;
+}
+
+.table ul li h3 a {
+    color: #FFF;
+    background: #B31325;
+    padding: 10px 15px;
+}
+
+.larger {
+    width: 30% !important;
+}
+
+.chnlg {
+    background: #B31325;
+    color: #FFF;
+    padding: 10px 15px;
+}
+
+@keyframes expand {
+    0% {
+        height: 50px;
+    }
+    50% {
+        height: 300px
+    }
+    100% {
+        height: auto
+    }
+}
+
+.reduce {
+    transition: 300ms;
+    animation-name: reduce;
+    animation-duration: 300ms;
+}
+
+@keyframes reduce {
+    0% {
+        height: 300px;
+    }
+    100% {
+        height: 50px
+    }
+}
+
+.middle {
+    margin-left: 25px !important;
+}
+
+.middle img {
+    width: 25px;
+    height: 25px;
+    padding: 20px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.middle a {
+    overflow: hidden;
+    border-radius: 50%;
+    background: #B31325;
+    display: inline-block;
+}
+
+.middle h2 {
+    display: inline-block;
+    width: 120px;
+    background: #B31325;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 20px;
+    height: 25px;
+    line-height: 1.5em;
+    cursor: pointer;
+}
+
+.middle {
+    margin: 30px 10px;
+}
+
+.changeLog {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    background: #000;
+    color: #FFF;
+    font-family: sans-serif;
+    display: none;
+}
+
+.closeBar {
+    background: #B31325;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 2.5em;
+}
+
+.closeBar h1 {
+    float: right;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.changes li {
+    margin: 10px 0px;
+    padding-left: 10px;
+    font-size: 0.9em;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 900px) and (orientation: portrait) {
+    main {
+        width: 100%;
+        display: inline-block;
+        float: right;
+        background: #111;
+        height: 100%;
+    }
+    #downloadCenter {
+        width: 100%;
+        height: 75px;
+        background: #000;
+        color: #b31325;
+        font-size: 1.5em;
+        font-family: sans-serif;
+        line-height: 75px;
+        box-shadow: #000 5px 0px 15px;
+    }
+    #downloadCenter h1 {
+        padding-left: 150px;
+        display: none;
+    }
+    .changeLog {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        overflow-y: scroll;
+        background: #111;
+        color: #FFF;
+        font-family: sans-serif;
+        display: none;
+    }
+    .closeBar {
+        background: #B31325;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        font-size: 2.5em;
+    }
+    .closeBar h1 {
+        float: right;
+        padding: 0px 10px;
+    }
+    .changes h1 {
+        margin: 40px 0px;
+        padding-left: 10px;
+        font-size: 1.5em;
+    }
+    .table {
+        width: 90%;
+        margin: auto;
+        height: auto;
+        color: #FFF;
+    }
+    .table ul li {
+        border: #B51325 solid 1px;
+        text-align: center;
+        display: block;
+        vertical-align: top;
+        width: 100%;
+        border-bottom: none;
+    }
+    .table ul li h1 {
+        background: #B31325;
+        padding: 20px 0px;
+        color: #000;
+        font-weight: 800;
+    }
+    .table ul li h3 {
+        border-bottom: 1px solid #b31325;
+        margin: 0px;
+        padding: 15px 0px;
+        height: auto;
+    }
+    .table ul li h3 span {
+        height: auto;
+    }
+    .table ul li h3 span {
+        height: 60px;
+    }
+    .table ul li h3 a {
+        color: #FFF;
+        background: #B31325;
+        padding: 10px 15px;
+    }
+    .larger {
+        width: 100% !important;
+    }
+    .large {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 900px) and (orientation: landscape) {
+    main {
+        width: 100%;
+        display: inline-block;
+        float: right;
+        background: #111;
+        height: 100%;
+    }
+    #downloadCenter {
+        width: 100%;
+        height: 75px;
+        background: #000;
+        color: #b31325;
+        font-size: 1.5em;
+        font-family: sans-serif;
+        line-height: 75px;
+        box-shadow: #000 5px 0px 15px;
+    }
+    #downloadCenter h1 {
+        padding-left: 150px;
+        display: none;
+    }
+    .changeLog {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        overflow-y: scroll;
+        background: #111;
+        color: #FFF;
+        font-family: sans-serif;
+        display: none;
+    }
+    .closeBar {
+        background: #B31325;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        font-size: 2.5em;
+    }
+    .closeBar h1 {
+        float: right;
+        padding: 0px 10px;
+    }
+    .changes h1 {
+        margin: 40px 0px;
+        padding-left: 10px;
+        font-size: 1.5em;
+    }
+    .table {
+        width: 90%;
+        margin: auto;
+        height: auto;
+        color: #FFF;
+    }
+    .table ul li {
+        border: #B51325 solid 1px;
+        text-align: center;
+        display: block;
+        vertical-align: top;
+        width: 100%;
+        border-bottom: none;
+    }
+    .table ul li h1 {
+        background: #B31325;
+        padding: 20px 0px;
+        color: #000;
+        font-weight: 800;
+    }
+    .table ul li h3 {
+        border-bottom: 1px solid #b31325;
+        margin: 0px;
+        padding: 15px 0px;
+        height: auto;
+    }
+    .table ul li h3 span {
+        height: auto;
+    }
+    .table ul li h3 a {
+        color: #FFF;
+        background: #B31325;
+        padding: 10px 15px;
+    }
+    .larger {
+        width: 100% !important;
+    }
+    .large {
+        width: 100% !important;
+    }
+}

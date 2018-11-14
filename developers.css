@@ -1,0 +1,349 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #B31325;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+main {
+    width: calc(100% - 300px);
+    display: inline-block;
+    float: right;
+    background: #111;
+    height: 100%;
+}
+
+body {
+    background: #111;
+}
+
+#downloadCenter {
+    width: 100%;
+    height: 75px;
+    background: #000;
+    color: #FFF;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    line-height: 75px;
+    box-shadow: #000 5px 0px 15px;
+}
+
+#downloadCenter h1 {
+    padding-left: 150px;
+}
+
+#developedBy {
+    position: fixed;
+    background: #000;
+    font-family: sans-serif;
+    bottom: 20px;
+    right: 20px;
+    color: #B31325;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 1.5em;
+    padding: 20px 20px;
+}
+
+#developedBy h1,
+h3 {
+    clear: both;
+    margin: 2px 5px;
+}
+
+#developedBy h4 {}
+
+#close {
+    background: #B31325;
+    color: #FFF;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+#main {
+    width: 96%;
+    margin: 5% 2%;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#navActivator {
+    display: none;
+}
+
+.developer {
+    display: inline-block;
+    margin: 10px 20px;
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+    background: #000;
+    color: #FFF;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.developer li img {
+    width: 100%;
+}
+
+.developer li h1 {
+    margin: 20px 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 700;
+}
+
+.developer li h4 {
+    margin: 15px 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #B31325;
+}
+
+.developer li h2 {
+    margin: 15px 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 0.9em;
+}
+
+.developer li a {
+    text-decoration: none;
+    color: #FFF;
+    background: #B31325;
+    padding: 10px 20px;
+}
+
+.middled {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+#footer {
+    width: 90%;
+    margin: 30px 5%;
+    color: #B31325;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px 0px;
+    background: #000;
+}
+
+#footer a {
+    line-height: 1.5em;
+    color: #FFF;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 900px) and (orientation: portrait) {
+    main {
+        width: 100%;
+        display: inline-block;
+        float: right;
+        background: #111;
+        height: 100%;
+    }
+    body {
+        background: #111;
+    }
+    #downloadCenter {
+        width: 100%;
+        height: 75px;
+        background: #000;
+        color: #FFF;
+        font-size: 1.5em;
+        font-family: sans-serif;
+        line-height: 75px;
+        box-shadow: #000 5px 0px 15px;
+    }
+    #downloadCenter h1 {
+        padding-left: 150px;
+        display: none;
+    }
+    #developedBy {
+        display: none;
+    }
+    .developer {
+        width: 300px;
+    }
+    .developer li img {
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 900px) and (orientation: landscape) {
+    main {
+        width: 100%;
+        display: inline-block;
+        float: right;
+        background: #111;
+        height: 100%;
+    }
+    body {
+        background: #111;
+    }
+    #downloadCenter {
+        width: 100%;
+        height: 75px;
+        background: #000;
+        color: #FFF;
+        font-size: 1.5em;
+        font-family: sans-serif;
+        line-height: 75px;
+        box-shadow: #000 5px 0px 15px;
+    }
+    #downloadCenter h1 {
+        padding-left: 150px;
+        display: none;
+    }
+    #developedBy {
+        display: none;
+    }
+}

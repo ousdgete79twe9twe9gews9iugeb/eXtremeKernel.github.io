@@ -1,0 +1,135 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="home-style.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="shortcut icon" type="image/png" href="logo.png" />
+    <title>Home</title>
+    <meta name="keywords" content="extremekernel,download extremekernel,custom kernel,kernel,best kernel">
+    <meta name="description" content="Download center | eXtremeKernel">
+    <meta property="og:title" content="Download center | eXtremeKernel">
+    <meta property="og:description" content="Download center | eXtremeKernel">
+    <meta property="og:site_name" content="Download center | eXtremeKernel">
+    <meta property="og:image" content="logo.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=yes">	
+    <meta name="theme-color" content="#332d4f">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127519729-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127519729-1');
+</script>
+
+</head>
+
+<body>
+    <nav id='navContain' class="closeNav">
+        <section id='logoArea'>
+            <h1>eXtremeKernel</h1>
+            <div id='navDeactivator' onclick="removeNav()">
+                <h2>&#9668;</h2>
+            </div>
+        </section>
+
+        <ul id='navEleContain'>
+            <a href='index.html'>
+                <li id='navEle1' class="navEle">
+                    <div class='wrap'>
+                        <img src="home.png" />
+                        <h2>Home</h2>
+                    </div>
+                </li>
+            </a>
+            <a href='developers.html'>
+                <li id='navEle1' class="navEle">
+                    <div class='wrap'>
+                        <img src="devLogo.png" />
+                        <h2>Developers</h2>
+                    </div>
+                </li>
+            </a>
+
+
+            <li onclick="displayNthDevice(0)" id='navEle2' class="navEle">
+                <div class='wrap'>
+                    <img src="phone.png" />
+                    <h2>Xiaomi</h2>
+                    <h3>&#9660;</h3>
+                </div>
+                <ul id='deviceList1' class="deviceList deviceListClosed">
+                    <li class="device">
+                            <a href='tissot.html'>
+                            <h4>MI A1 (tissot)</h4>
+                        </a>
+                    </li>
+                    <li class="device">
+                            <a href='mido.html'>
+                            <h4>Redmi Note 4 (mido)</h4>
+                        </a>
+                    </li>
+                        <li class="device">
+                            <a href='beryllium.html'>
+                                <h4>Poco F1 (beryllium)</h4>
+                            </a>					
+                    <li class="device">
+                            <a href='vince.html'>
+                            <h4>Redmi 5 Plus (vince)</h4>
+                        </a>
+                    <li class="device">
+                            <a href='dipper.html'>
+                            <h4>MI 8 (dipper)</h4>
+                        </a>
+                    <li class="device">
+                            <a href='polaris.html'>
+                            <h4>MI Mix 2S (polaris)</h4>
+                        </a>						
+                        </li>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id='downloadCenter'>
+            <div id='navActivator' onclick="displayNav()">
+                <img src="toggler.png">
+            </div>
+        </div>
+        <div id='main'>
+            <div id='upper'>
+                <img src="logo.png">
+                <h1>eXtremeKernel</h1>
+                <h3>Download Center</h3>
+            </div>
+            <div id='lower'>
+                <h2>About Us</h2>
+                <h3>Afraid to install that high performance 3D Game because your device just won't take it ? ,Want to rock Asphalt Legends on Ultra Graphics? Got no time to charge your device on the run? Or Maybe You Just Want to Embrace your Device Reborn. Behold!. "The eXtreme kernel" .. here to lift your desire for performance and battery beyond limits and measures.. and to the "eXtreme" you deserve more than" Stock ". you deserve "eXtreme" . unleash the true power of your device like never before, while you can. why live the stock life when u can go all the way "extreme!!".</h3>
+                <h2>Know us more !</h2>
+                <ul>
+                    <li>
+                        <a href='https://github.com/eXtremeKernel'><img src='gh.png' </li></a>
+                        <li>
+                            <a href='https://www.extremekernel.xyz/'><img src='net.png' </li></a>
+                            <li>
+                                <a href='https://www.paypal.me/AlekDevDonate'><img src='paypall.png' </li></a>
+                </ul>
+            </div>
+        </div>
+        <div id='footer'>
+            <center>
+                <strong>Project created by <a href="https://forum.xda-developers.com/member.php?s=39c478ab359b19b1e675536887eb5ea6&u=7105912" target="_blank">AlekDev</a></strong><br>
+                <strong>Website developed by <a href="https://www.facebook.com/Dimitar.ImI" target="_blank">Dimitar Veljanovski</a></strong>
+            </center>
+        </div>
+    </main>
+    <div id='load'>
+        <img src="loading.gif">
+    </div>
+    <script src="home-script.js"></script>
+</body>
+
+</html>

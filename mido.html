@@ -1,0 +1,242 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="shortcut icon" type="image/png" href="logo.png" />
+    <title>Mido</title>
+    <meta name="keywords" content="extremekernel,download extremekernel,custom kernel,kernel,best kernel">
+    <meta name="description" content="Download center | eXtreme Kernel">
+    <meta property="og:title" content="Download center | eXtreme Kernel">
+    <meta property="og:description" content="Download center | eXtreme Kernel">
+    <meta property="og:site_name" content="Download center | eXtreme Kernel">
+    <meta property="og:image" content="logo.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=yes">
+    <meta name="theme-color" content="#332d4f">
+</head>
+
+<body>
+    <nav id='navContain' class="closeNav">
+        <section id='logoArea'>
+            <h1>eXtreme Kernel</h1>
+            <div id='navDeactivator' onclick="removeNav()">
+                <h2>&#9668;</h2>
+            </div>
+        </section>
+
+        <ul id='navEleContain'>
+            <a href='index.html'>
+                <li id='navEle1' class="navEle">
+                    <div class='wrap'>
+                        <img src="home.png" />
+                        <h2>Home</h2>
+                    </div>
+                </li>
+            </a>
+            <a href='developers.html'>
+                <li id='navEle1' class="navEle">
+                    <div class='wrap'>
+                        <img src="devLogo.png" />
+                        <h2>Developers</h2>
+                    </div>
+                </li>
+            </a>
+
+
+            <li onclick="displayNthDevice(0)" id='navEle2' class="navEle">
+                <div class='wrap'>
+                    <img src="phone.png" />
+                    <h2>Xiaomi</h2>
+                    <h3>&#9660;</h3>
+                </div>
+                <ul id='deviceList1' class="deviceList deviceListClosed">
+                    <li class="device">
+                            <a href='tissot.html'>
+                            <h4>MI A1 (tissot)</h4>
+                        </a>
+                    </li>
+                    <li class="device">
+                            <a href='mido.html'>
+                            <h4>Redmi Note 4 (mido)</h4>
+                        </a>
+                    </li>
+                        <li class="device">
+                            <a href='beryllium.html'>
+                                <h4>Poco F1 (beryllium)</h4>
+                            </a>					
+                    <li class="device">
+                            <a href='vince.html'>
+                            <h4>Redmi 5 Plus (vince)</h4>
+                        </a>
+                    <li class="device">
+                            <a href='dipper.html'>
+                            <h4>MI 8 (dipper)</h4>
+                        </a>
+                    <li class="device">
+                            <a href='polaris.html'>
+                            <h4>MI Mix 2S (polaris)</h4>
+                        </a>						
+                        </li>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <div id='downloadCenter'>
+            <div id='navActivator' onclick="displayNav()">
+                <img src="toggler.png">
+            </div>
+        </div>
+
+
+
+        <div id='romInfo'>
+            <h1>Xiaomi Redmi Note 4 (mido)</h1>
+            <h2>Maintainers: <a href="https://forum.xda-developers.com/member.php?u=7105912">AlekDev</a>,<a href="https://forum.xda-developers.com/member.php?u=3056640">Cheewaca</a>,<a href="https://forum.xda-developers.com/member.php?u=8569961">TheHitMan7</a></h2>
+            <div class='middle'>
+			    <a href='https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/kernel-extremekernel-v11-redmi-note-4-t3848768'><img src="xda.png"></a>
+                <a href='https://t.me/eXtremeKernel_Mido_Development'><img src="send2.png"></a>
+				<a href='https://github.com/eXtremeKernel/mido'><img src="prof.png"></a>
+            </div>
+            <div class='romVersions' onclick='displayRom(0)'>
+                <div class='romVersion'>
+                    <img src='android-head.png' />
+                    <h3>Stable Builds</h3>
+                </div>
+            </div>
+            <div class='romVersions'>
+                <div class='romVersion' onclick='displayRom(1)'>
+                    <img src='android-head.png' />
+                    <h3>Beta Builds</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class='romsContainer'>
+            <div class="rom reduce" id='rom1'>
+
+                <div class='upper' onclick='displayRom(0)'>
+                    <h1 class='arrow'>&#9660;</h1>
+                    <img src="android-head2.png">
+                    <div class='upperText'>
+                        <h1>Stable Builds</h1>
+                        <h3>Our eXtremeKernel Stable Builds</h3>
+                    </div>
+                </div>
+
+                <div class="table">
+				    <h1>v12_Mido_Custom-OC</h1>
+                    <ul>
+                        <li class='larger'>
+                            <h1>File name</h1>
+                            <h3>eXtremeKernel_v12_Mido_Custom-OC.zip</h3>
+                        </li><li class='large'>
+                            <h1>Date</h1>
+                            <h3>Nov 14, 2018 | 12:31PM</h3>
+                        </li><li>
+                            <h1>Size</h>
+                               <h3>11.5 MB</h3>
+                        </li><li>
+                            <h1>Changelog</h1>
+                            <h3><span class='chnlg' onclick="openCL(0)">Changelog</span></h3>
+                        </li><li>
+                            <h1>Download</h1>
+                            <h3><a href='https://firebasestorage.googleapis.com/v0/b/extreme-builds.appspot.com/o/eXtremeKernel_v12_Mido_Custom_OC.zip?alt=media&token=06525283-bbd6-4cfb-867d-a4cc120184b1' download>Get Build</a></h3>
+                        </li>
+                    </ul>
+                </div>
+										
+            </div>
+		
+            <div class="rom reduce" id='rom2'>
+
+                <div class='upper' onclick='displayRom(1)'>
+                    <h1 class='arrow'>&#9660;</h1>
+                    <img src="android-head2.png">
+                    <div class='upperText'>
+                        <h1>Beta Builds</h1>
+                        <h3>Our eXtremeKernel Beta Builds</h3>
+                    </div>
+                </div>
+
+                <div class="table">
+				    <h1>NO-BETA'S</h1>
+                    <ul>
+                        <li class='larger'>
+                            <h1>File name</h1>
+                            <h3>---------------</h3>
+                        </li><li class='large'>
+                            <h1>Date</h1>
+                            <h3>---------------</h3>
+                        </li><li>
+                            <h1>Size</h>
+                            <h3>---------------</h3>
+                        </li><li>
+                            <h1>Changelog</h1>
+                            <h3><span class='chnlg' onclick="openCL(50)">Changelog</span></h3>
+                        </li><li>
+                            <h1>Download</h1>
+                            <h3><a href='' download>Get Build</a></h3>
+                        </li>
+                    </ul>
+                </div>												
+    </main>
+
+    <div id='changeLog1' class="changeLog">
+        <div class='closeBar'>
+            <h1 onclick="closeCL(0)">&times;</h1>
+        </div>
+        <div class='changes'>
+<ul>
+	<li>-Fixed IR</li>
+	<li>-Added F2FS Support (No more Bootloop!)</li>
+	<li>-New Reworked CPU AND GPU OC</li>
+</ul>
+        </div>
+    </div>
+    <div id='changeLog2' class="changeLog">
+        <div class='closeBar'>
+            <h1 onclick="closeCL(1)">&times;</h1>
+        </div>
+        <div class='changes'>
+        </div>
+    </div>
+    <div id='changeLog3' class="changeLog">
+        <div class='closeBar'>
+            <h1 onclick="closeCL(2)">&times;</h1>
+        </div>
+        <div class='changes'>
+            <h1>3s</h1>
+            <h1>Changes</h1>
+            <h1>Changes</h1>
+            <h1>Changes</h1>
+            <h1>Changes</h1>
+            <h1>Changes</h1>
+            <h1>Changes</h1>
+        </div>
+    </div>
+    <div id='changeLog4' class="changeLog">
+        <div class='closeBar'>
+            <h1 onclick="closeCL(3)">&times;</h1>
+        </div>
+        <div class='changes'>
+            <h1>4s</h1>
+            <h1>Changes</h1>
+            <h1>Changes</h1>
+            <h1>Changes</h1>
+            <h1>Changes</h1>
+            <h1>Changes</h1>
+            <h1>Changes</h1>
+        </div>
+    </div>
+
+    <div id='load'>
+        <img src="loading.gif">
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
