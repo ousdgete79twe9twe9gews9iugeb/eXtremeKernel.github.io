@@ -16,7 +16,9 @@ var cl3 = document.getElementById('changeLog3');
 var cl4 = document.getElementById('changeLog4');
 var cl5 = document.getElementById('changeLog5');
 var cl6 = document.getElementById('changeLog6');
-var cls = [cl1, cl2, cl3, cl4, cl5,cl6];
+var cl7 = document.getElementById('changeLog7');
+var cl8 = document.getElementById('changeLog8');
+var cls = [cl1, cl2, cl3, cl4, cl5,cl6,cl7,cl8];
 
 function openCL(index) {
     cls[index].style.display = 'block';
