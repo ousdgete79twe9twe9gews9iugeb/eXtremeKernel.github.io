@@ -20,7 +20,8 @@ var cl7 = document.getElementById('changeLog7');
 var cl8 = document.getElementById('changeLog8');
 var cl9 = document.getElementById('changeLog9');
 var cl10 = document.getElementById('changeLog10');
-var cls = [cl1, cl2, cl3, cl4, cl5,cl6,cl7,cl8,cl9,cl10];
+var cl11 = document.getElementById('changeLog11');
+var cls = [cl1, cl2, cl3, cl4, cl5,cl6,cl7,cl8,cl9,cl10,cl11];
 
 function openCL(index) {
     cls[index].style.display = 'block';
