@@ -22,7 +22,8 @@ var cl9 = document.getElementById('changeLog9');
 var cl10 = document.getElementById('changeLog10');
 var cl11 = document.getElementById('changeLog11');
 var cl12 = document.getElementById('changeLog12');
-var cls = [cl1, cl2, cl3, cl4, cl5,cl6,cl7,cl8,cl9,cl10,cl11,cl12];
+var cl13 = document.getElementById('changeLog13');
+var cls = [cl1, cl2, cl3, cl4, cl5,cl6,cl7,cl8,cl9,cl10,cl11,cl12,cl13];
 
 function openCL(index) {
     cls[index].style.display = 'block';
