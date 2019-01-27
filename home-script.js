@@ -10,7 +10,11 @@ var developer = document.getElementById('developedBy');
 var load = document.getElementById('load');
 
 
+const popupClose = document.querySelector("#popup h1");
 
+removePopup = () => {popupClose.parentElement.classList.add("dispNone");}
+
+popupClose.addEventListener("click", removePopup, false);
 
 function displayNthDevice(index) {
     if (devices[index].classList.contains('deviceListClosed')) {

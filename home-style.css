@@ -300,6 +300,44 @@ h3 {
     color: #FFF;
 }
 
+#popup {
+    background: #111111;
+    color: #FFF;
+    width: 400px;
+    height: 200px;
+    position: fixed;
+    z-index: 2;
+    margin-left: calc(50vw - 150px);
+    margin-top: 30vh;
+    font-family: sans-serif;
+    font-size: 1.3em;
+}
+
+#popup h1{
+    background: #B31325;
+    transform: rotate(90deg);
+    display: inline-block;
+    height: 50px;
+    width: 40px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: calc(400px - 50px);
+    cursor: pointer;
+}
+
+#popup h2{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.dispNone{
+    display: none !important;
+}
+
+#popup h2 a{
+    color: #B31325;
+}
+
 @media only screen and (min-width: 300px) and (max-width: 900px) and (orientation: portrait) {
     main {
         width: 100%;
@@ -397,6 +435,14 @@ h3 {
     margin-top: 40px;
     margin-bottom:20px
 }
+    #popup{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #popup h1{
+        margin-left: calc(100% - 50px);
+    }
 }
 
 @media only screen and (min-width: 300px) and (max-width: 900px) and (orientation: landscape) {
