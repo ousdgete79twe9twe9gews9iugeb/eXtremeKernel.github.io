@@ -25,7 +25,7 @@ function displayNthDevice(index) {
         devices[index].classList.replace('deviceListOpened', 'deviceListClosed');
     }
 }
-
+/*
 function btnAppear(){
     closeBtn.style.display = "block";
 }
@@ -33,7 +33,7 @@ function btnAppear(){
 toggleClose.addEventListener("click", btnAppear, false);
 
 
-
+*/
 
 function displayNav() {
     nav.classList.replace('closeNav', 'openNav');
