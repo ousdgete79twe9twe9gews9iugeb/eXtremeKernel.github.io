@@ -30,7 +30,7 @@ function btnAppear(){
     closeBtn.style.display = "block";
 }
 
-toggleClose.addEventListener("click", btnAppear, false)
+toggleClose.addEventListener("click", btnAppear, false);
 
 
 
