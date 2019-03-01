@@ -156,7 +156,7 @@ main {
     width: calc(100% - 300px);
     display: inline-block;
     float: right;
-    background: #111;
+    background: #a51919;
     height: 100%;
 }
 
@@ -209,8 +209,7 @@ main {
 }
 
 #upper {
-    border-bottom: 1px solid #111;
-    padding-bottom: 30px;
+    border-bottom: 1px solid #a20f0f;
 }
 
 #lower {
@@ -223,7 +222,7 @@ main {
 
 #lower ul li {
     display: inline-block;
-    background: #111;
+        background: #111;
     width: 55px;
     height: 55px;
     border-radius: 50%;
@@ -232,7 +231,7 @@ main {
 }
 
 body {
-    background: #111;
+    background: #a51919;
     color: #ffffff;
 }
 
@@ -343,7 +342,7 @@ h3 {
         width: 100%;
         display: inline-block;
         float: right;
-        background: #111;
+        background: #a51919;
         height: 100%;
     }
     #downloadCenter {
@@ -389,7 +388,7 @@ h3 {
         width: 150px;
     }
     #upper {
-        border-bottom: 1px solid #111;
+        border-bottom: 1px solid #a51919;;
         padding-bottom: 30px;
     }
     #lower {
@@ -408,7 +407,7 @@ h3 {
         transition: 200ms;
     }
     body {
-        background: #111;
+        background: #a51919;
     }
     #lower ul li:hover {
         background: #000;
@@ -450,7 +449,7 @@ h3 {
         width: 100%;
         display: inline-block;
         float: right;
-        background: #111;
+        background: #a51919;
         height: 100%;
     }
     #downloadCenter {
@@ -496,7 +495,7 @@ h3 {
         width: 150px;
     }
     #upper {
-        border-bottom: 1px solid #111;
+        border-bottom: 1px solid #a51919;;
         padding-bottom: 30px;
     }
     #lower {
@@ -515,7 +514,7 @@ h3 {
         transition: 200ms;
     }
     body {
-        background: #111;
+        background: #a51919;
     }
     #lower ul li:hover {
         background: #000;
@@ -538,7 +537,7 @@ h3 {
     padding: 20px 0px;
     background: #000;
     position: relative;
-    margin-top: 70px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 }

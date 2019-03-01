@@ -133,7 +133,8 @@ table {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #B31325;
+    background: #a51919
+;
     border-radius: 10px;
 }
 
@@ -151,12 +152,12 @@ main {
     width: calc(100% - 300px);
     display: inline-block;
     float: right;
-    background: #111;
+    background: #a51919;
     height: 100%;
 }
 
 body {
-    background: #111;
+    background: #a51919;
 }
 
 #downloadCenter {
@@ -180,7 +181,8 @@ body {
     font-family: sans-serif;
     bottom: 20px;
     right: 20px;
-    color: #B31325;
+    color: #a51919
+;
     font-family: sans-serif;
     font-weight: 700;
     line-height: 1.5em;
@@ -196,7 +198,8 @@ h3 {
 #developedBy h4 {}
 
 #close {
-    background: #B31325;
+    background: #a51919
+;
     color: #FFF;
     width: 20px;
     height: 20px;
@@ -243,7 +246,8 @@ h3 {
     margin: 15px 0px;
     padding-left: 0px;
     padding-right: 0px;
-    color: #B31325;
+    color: #a51919
+;
 }
 
 .developer li h2 {
@@ -256,7 +260,8 @@ h3 {
 .developer li a {
     text-decoration: none;
     color: #FFF;
-    background: #B31325;
+    background: #a51919
+;
     padding: 10px 20px;
 }
 
@@ -268,7 +273,8 @@ h3 {
 #footer {
     width: 90%;
     margin: 30px 5%;
-    color: #B31325;
+    color: #a51919
+;
     font-size: 1.2em;
     font-family: sans-serif;
     text-align: center;
@@ -286,11 +292,11 @@ h3 {
         width: 100%;
         display: inline-block;
         float: right;
-        background: #111;
+        background: #a51919;
         height: 100%;
     }
     body {
-        background: #111;
+        background: #a51919;
     }
     #downloadCenter {
         width: 100%;
@@ -322,11 +328,11 @@ h3 {
         width: 100%;
         display: inline-block;
         float: right;
-        background: #111;
+        background: #a51919;
         height: 100%;
     }
     body {
-        background: #111;
+        background: #a51919;
     }
     #downloadCenter {
         width: 100%;

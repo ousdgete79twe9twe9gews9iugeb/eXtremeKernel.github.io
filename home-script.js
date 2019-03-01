@@ -12,12 +12,6 @@ var closeBtn = document.getElementById("closeBtn");
 var toggleClose = document.getElementById("toggleClose");
 
 
-const popupClose = document.querySelector("#popup h1");
-
-removePopup = () => {popupClose.parentElement.classList.add("dispNone");}
-
-popupClose.addEventListener("click", removePopup, false);
-
 function displayNthDevice(index) {
     if (devices[index].classList.contains('deviceListClosed')) {
         devices[index].classList.replace('deviceListClosed', 'deviceListOpened');
@@ -56,7 +50,7 @@ function disnon() {
 function loaded() {
     setTimeout(function () {
         load.style.display = 'none';
-    }, 300); //so ova 300 kontrolirash vremeto na loading od koke se loadira window, znaci ako se loadira window za 3000ms celosno ke traj 3300 ms so 300.
+    }, 400); //so ova 300 kontrolirash vremeto na loading od koke se loadira window, znaci ako se loadira window za 3000ms celosno ke traj 3300 ms so 300.
 }
 window.addEventListener('load', loaded());
 

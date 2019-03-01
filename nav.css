@@ -12,7 +12,8 @@ nav {
 
 nav h1 {
     text-align: center;
-    color: #b31325;
+    color: #a51919
+;
 }
 
 nav img {
@@ -39,7 +40,8 @@ nav h3 {
     vertical-align: super;
     float: right;
     margin-right: 40px;
-    color: #b31325;
+    color: #a51919
+;
     line-height: 30px;
     cursor: pointer;
     user-select: none;
@@ -50,7 +52,8 @@ nav h3 {
 }
 
 nav h3:hover {
-    background: #b31325;
+    background: #a51919
+;
     color: #FFF;
 }
 
@@ -70,7 +73,8 @@ nav h4 {
 }
 
 .device:hover {
-    background: #b31325;
+    background: #a51919
+;
     color: #FFF;
 }
 
@@ -206,7 +210,8 @@ nav h4 {
     }
     nav h1 {
         text-align: center;
-        color: #b31325;
+        color: #a51919
+;
     }
     nav img {
         display: inline-block;
@@ -224,7 +229,8 @@ nav h4 {
         vertical-align: super;
         float: right;
         margin-right: 40px;
-        color: #b31325;
+        color: #a51919
+;
         line-height: 30px;
         cursor: pointer;
         user-select: none;
@@ -234,7 +240,8 @@ nav h4 {
         border-radius: 50%;
     }
     nav h3:hover {
-        background: #b31325;
+        background: #a51919
+;
         color: #FFF;
     }
     nav h4 {
@@ -260,7 +267,8 @@ nav h4 {
         transition: 300ms;
     }
     .device:hover {
-        background: #B31325;
+        background: #a51919
+;
         color: #FFF;
     }
     #navEle1 {
@@ -292,7 +300,8 @@ nav h4 {
         font-size: 2em;
     }
     #navDeactivator h2 {
-        color: #b31325;
+        color: #a51919
+;
     }
     .deviceList {
         overflow: hidden;
@@ -391,7 +400,8 @@ nav h4 {
     }
     nav h1 {
         text-align: center;
-        color: #b31325;
+        color: #a51919
+;
     }
     nav img {
         display: inline-block;
@@ -409,7 +419,8 @@ nav h4 {
         vertical-align: super;
         float: right;
         margin-right: 40px;
-        color: #b31325;
+        color: #a51919
+;
         line-height: 30px;
         cursor: pointer;
         user-select: none;
@@ -419,7 +430,8 @@ nav h4 {
         border-radius: 50%;
     }
     nav h3:hover {
-        background: #b31325;
+        background: #a51919
+;
         color: #FFF;
     }
     nav h4 {
@@ -445,7 +457,8 @@ nav h4 {
         transition: 300ms;
     }
     .device:hover {
-        background: #B31325;
+        background: #a51919
+;
         color: #FFF;
     }
     #navEle1 {
@@ -477,7 +490,8 @@ nav h4 {
         font-size: 2em;
     }
     #navDeactivator h2 {
-        color: #b31325;
+        color: #a51919
+;
     }
     .deviceList {
         overflow: hidden;

@@ -12,16 +12,16 @@
     <meta property="og:site_name" content="Download center | eXtreme Kernel">
     <meta property="og:image" content="logo.png">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=yes">
-    <meta name="theme-color" content="#332d4f">
+    <meta name="theme-color" content="#a51919">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 </head>
 
-<body>
-    <nav id='navContain' class="closeNav">
-        <section id='logoArea'>
-            <h1>eXtreme Kernel</h1>
+ <nav id='navContain' class="closeNav" style="z-index:1">
+        <section id='logoArea'>           
+            <h1 class="animated fadeinleft">eXtremeKernel</h1> 
             <div id='navDeactivator' onclick="removeNav()">
-                <h2>&#9668;</h2>
+                <h2>◄</h2>
             </div>
         </section>
 
@@ -29,16 +29,34 @@
             <a href='index.html'>
                 <li id='navEle1' class="navEle">
                     <div class='wrap'>
-                        <img src="home.png" />
-                        <h2>Home</h2>
+                        <img class="animated zoomin"src="home.png" />
+                        <h2 class="animated slideInLeft ">Home</h2>
                     </div>
                 </li>
             </a>
             <a href='developers.html'>
                 <li id='navEle1' class="navEle">
                     <div class='wrap'>
-                        <img src="devLogo.png" />
-                        <h2>Developers</h2>
+                        <img class="animated zoomin"src="devLogo.png" />
+                        <h2 class="animated slideInLeft ">Team</h2>
+                    </div>
+                </li>
+            </a>
+
+                        <a href='fund.html'>
+                <li id='navEle1' class="navEle">
+                    <div class='wrap'>
+                        <img class="animated zoomin"src="FUND.png" />
+                        <h2 class="animated slideInLeft ">Fundraise</h2>
+                    </div>
+                </li>
+            </a>
+
+                        <a href='help.html'>
+                <li id='navEle1' class="navEle">
+                    <div class='wrap'>
+                        <img class="animated zoomin"src="help.png" />
+                        <h2 class="animated slideInLeft ">Help</h2>
                     </div>
                 </li>
             </a>
@@ -46,9 +64,9 @@
 
             <li onclick="displayNthDevice(0)" id='navEle2' class="navEle">
                 <div class='wrap'>
-                    <img src="phone.png" />
-                    <h2>Xiaomi</h2>
-                    <h3>&#9660;</h3>
+                    <img class="animated zoomin"src="phone.png" />
+                        <h2 class="animated slideInLeft ">Xiaomi</h2>
+                    <h3 class="animated swing">▼</h3>
                 </div>
                 <ul id='deviceList1' class="deviceList deviceListClosed">
                     <li class="device">
@@ -63,8 +81,8 @@
                     </li>
                         <li class="device">
                             <a href='beryllium.html'>
-                                <h4>Poco F1 (beryllium)</h4>
-                            </a>					
+                                <h4 class="animated zoomin">Poco F1 (beryllium)</h4>
+                            </a>                    
                     <li class="device">
                             <a href='vince.html'>
                             <h4>Redmi 5 Plus (vince)</h4>
@@ -75,13 +93,34 @@
                         </a>
                     <li class="device">
                             <a href='polaris.html'>
-                            <h4>MI Mix 2S (polaris)</h4>
-                        </a>						
+                            <h4>Mix 2S (polaris)</h4>
+                        </a>    
+                    <li class="device">
+                            <a href='mi8pro.html'>
+                            <h4>MI 8 Pro (equuleus)</h4>
+                        </a>
+                    <li class="device">
+                            <a href='mix3.html'>
+                            <h4>Mix 3 (perseus)</h4>
+                        </a>
+                    <li class="device">
+                            <a href='mi8ee.html'>
+                            <h4>MI 8 EE (ursa)</h4>
+                        </a>
+                    <li class="device">
+                            <a href='mi9.html'>
+                            <h4>MI 9 (cepheus)</h4>
+                        </a>    
+                    <li class="device">
+                            <a href='markw.html'>
+                            <h4>Redmi Note 4 Prime (markw)</h4>
+                        </a>                            
                         </li>
                     </li>
                 </ul>
             </li>
         </ul>
+
     </nav>
 
 
@@ -94,13 +133,13 @@
 
 
 
-        <div id='romInfo'>
+        <div class="animated fadeindown " id='romInfo'>
             <h1>Xiaomi MI A1 (tissot)</h1>	
-            <h2>Maintainers: <a href="https://forum.xda-developers.com/member.php?u=7105912">AlekDev</a>,<a href="https://forum.xda-developers.com/member.php?u=3056640">Cheewaca</a>,<a href="https://forum.xda-developers.com/member.php?u=8569961">TheHitMan7</a></h2>		
+            <h2>Developers/Maintainers: <a href="https://forum.xda-developers.com/member.php?u=7105912">AlekDev(❌)</a>,<a href="https://forum.xda-developers.com/member.php?u=3056640">Cheewaca(✔️)</a></h2>		
             <div class='middle'>
 			    <a href='https://forum.xda-developers.com/mi-a1/development/kernel-extreme-kernel-1-0-mi-a1-t3769702'><img src="xda.png"></a>
                 <a href='https://t.me/eXtremeKernel_Development'><img src="send2.png"></a>
-				<a href='https://github.com/eXtremeKernel/tissot'><img src="prof.png"></a>	     
+				<a href='https://github.com/eXtremeKernel/Tissot_xiaomi_pie'><img src="prof.png"></a>	     
             </div>
             <div class='romVersions' onclick='displayRom(0)'>
                 <div class='romVersion'>
@@ -118,7 +157,7 @@
 	    </div>
 
 	   	   
-        <div class='romsContainer'>
+        <div class="animated slideInLeft " class='romsContainer'>
             <div class="rom reduce" id='rom1'>
 
                 <div class='upper' onclick='displayRom(0)'>

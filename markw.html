@@ -1,0 +1,539 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="shortcut icon" type="image/png" href="logo.png" />
+    <title>markw</title>
+    <meta name="keywords" content="extremekernel,download extremekernel,custom kernel,kernel,best kernel">
+    <meta name="description" content="Download center | eXtreme Kernel">
+    <meta property="og:title" content="Download center | eXtreme Kernel">
+    <meta property="og:description" content="Download center | eXtreme Kernel">
+    <meta property="og:site_name" content="Download center | eXtreme Kernel">
+    <meta property="og:image" content="logo.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=yes">
+    <meta name="theme-color" content="#a51919">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+
+ <nav id='navContain' class="closeNav" style="z-index:1">
+        <section id='logoArea'>           
+            <h1 class="animated fadeinleft">eXtremeKernel</h1> 
+            <div id='navDeactivator' onclick="removeNav()">
+                <h2>◄</h2>
+            </div>
+        </section>
+
+        <ul id='navEleContain'>
+            <a href='index.html'>
+                <li id='navEle1' class="navEle">
+                    <div class='wrap'>
+                        <img class="animated zoomin"src="home.png" />
+                        <h2 class="animated slideInLeft ">Home</h2>
+                    </div>
+                </li>
+            </a>
+            <a href='developers.html'>
+                <li id='navEle1' class="navEle">
+                    <div class='wrap'>
+                        <img class="animated zoomin"src="devLogo.png" />
+                        <h2 class="animated slideInLeft ">Team</h2>
+                    </div>
+                </li>
+            </a>
+
+                        <a href='fund.html'>
+                <li id='navEle1' class="navEle">
+                    <div class='wrap'>
+                        <img class="animated zoomin"src="FUND.png" />
+                        <h2 class="animated slideInLeft ">Fundraise</h2>
+                    </div>
+                </li>
+            </a>
+
+                        <a href='help.html'>
+                <li id='navEle1' class="navEle">
+                    <div class='wrap'>
+                        <img class="animated zoomin"src="help.png" />
+                        <h2 class="animated slideInLeft ">Help</h2>
+                    </div>
+                </li>
+            </a>
+
+
+            <li onclick="displayNthDevice(0)" id='navEle2' class="navEle">
+                <div class='wrap'>
+                    <img class="animated zoomin"src="phone.png" />
+                        <h2 class="animated slideInLeft ">Xiaomi</h2>
+                    <h3 class="animated swing">▼</h3>
+                </div>
+                <ul id='deviceList1' class="deviceList deviceListClosed">
+                    <li class="device">
+                            <a href='tissot.html'>
+                            <h4>MI A1 (tissot)</h4>
+                        </a>
+                    </li>
+                    <li class="device">
+                            <a href='mido.html'>
+                            <h4>Redmi Note 4 (mido)</h4>
+                        </a>
+                    </li>
+                        <li class="device">
+                            <a href='beryllium.html'>
+                                <h4 class="animated zoomin">Poco F1 (beryllium)</h4>
+                            </a>                    
+                    <li class="device">
+                            <a href='vince.html'>
+                            <h4>Redmi 5 Plus (vince)</h4>
+                        </a>
+                    <li class="device">
+                            <a href='dipper.html'>
+                            <h4>MI 8 (dipper)</h4>
+                        </a>
+                    <li class="device">
+                            <a href='polaris.html'>
+                            <h4>Mix 2S (polaris)</h4>
+                        </a>    
+                    <li class="device">
+                            <a href='mi8pro.html'>
+                            <h4>MI 8 Pro (equuleus)</h4>
+                        </a>
+                    <li class="device">
+                            <a href='mix3.html'>
+                            <h4>Mix 3 (perseus)</h4>
+                        </a>
+                    <li class="device">
+                            <a href='mi8ee.html'>
+                            <h4>MI 8 EE (ursa)</h4>
+                        </a>
+                    <li class="device">
+                            <a href='mi9.html'>
+                            <h4>MI 9 (cepheus)</h4>
+                        </a>    
+                    <li class="device">
+                            <a href='markw.html'>
+                            <h4>Redmi Note 4 Prime (markw)</h4>
+                        </a>                            
+                        </li>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+    </nav>
+
+    <main>
+        <div id='downloadCenter'>
+            <div id='navActivator' onclick="displayNav()">
+                <img src="toggler.png">
+            </div>
+        </div>
+
+
+
+        <div class="animated fadeindown " id='romInfo'>            <h1>Xiaomi Redmi Note 4 Prime (markw)</h1>
+            <h2>Developers/Maintainers: <a href="https://forum.xda-developers.com/member.php?u=7105912">AlekDev(❌)</a>,<a href="https://forum.xda-developers.com/member.php?u=3056640">Cheewaca(✔️)</a></h2>
+            <div class='middle'>
+                <a href='https://forum.xda-developers.com'><img src="xda.png"></a>
+                <a href='https://t.me/joinchat/FcfGpROBGDFY8VxBlEtMtg'><img src="send2.png"></a>
+                <a href='https://github.com/eXtremeKernel'><img src="prof.png"></a>
+            </div>
+            <div class='romVersions' onclick='displayRom(0)'>
+                <div class='romVersion'>
+                    <img src='android-head.png' />
+                    <h3>Stable Builds</h3>
+                </div>
+            </div>
+            <div class='romVersions'>
+                <div class='romVersion' onclick='displayRom(1)'>
+                    <img src='android-head.png' />
+                    <h3>Beta Builds</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="animated slideInLeft " class='romsContainer'>
+            <div class="rom reduce" id='rom1'>
+
+                <div class='upper' onclick='displayRom(0)'>
+                    <h1 class='arrow'>&#9660;</h1>
+                    <img src="android-head2.png">
+                    <div class='upperText'>
+                        <h1>Stable Builds</h1>
+                        <h3>Our eXtremeKernel Stable Builds</h3>
+                    </div>
+                </div>
+
+                <div class="table">
+                    <h1>No-Stable Builds</h1>
+                    <ul>
+                        <li class='larger'>
+                            <h1>File name</h1>
+                            <h3>---------------</h3>
+                        </li><li class='large'>
+                            <h1>Date</h1>
+                            <h3>---------------</h3>
+                        </li><li>
+                            <h1>Size</h>
+                            <h3>---------------</h3>
+                        </li><li>
+                            <h1>Changelog</h1>
+                            <h3><span class='chnlg' onclick="openCL(50)">Changelog</span></h3>
+                        </li><li>
+                            <h1>Download</h1>
+                            <h3><a href='' download>Get Build</a></h3>
+                        </li>
+                    </ul>
+                </div>  
+                                            
+            </div>
+        
+            <div class="rom reduce" id='rom2'>
+
+                <div class='upper' onclick='displayRom(1)'>
+                    <h1 class='arrow'>&#9660;</h1>
+                    <img src="android-head2.png">
+                    <div class='upperText'>
+                        <h1>Beta Builds</h1>
+                        <h3>Our eXtremeKernel Beta Builds</h3>
+                    </div>
+                </div>
+
+                <div class="table">
+                    <h1>No-Beta Builds</h1>
+                    <ul>
+                        <li class='larger'>
+                            <h1>File name</h1>
+                            <h3>---------------</h3>
+                        </li><li class='large'>
+                            <h1>Date</h1>
+                            <h3>---------------</h3>
+                        </li><li>
+                            <h1>Size</h>
+                            <h3>---------------</h3>
+                        </li><li>
+                            <h1>Changelog</h1>
+                            <h3><span class='chnlg' onclick="openCL(50)">Changelog</span></h3>
+                        </li><li>
+                            <h1>Download</h1>
+                            <h3><a href='' download>Get Build</a></h3>
+                        </li>
+                    </ul>
+                </div>  
+                                            
+            </div>
+                                            
+    </main>
+
+    <div id='changeLog1' class="changeLog">
+        <div class='closeBar'>
+            <h1 onclick="closeCL(0)">&times;</h1>
+        </div>
+        <div class='changes'>
+<ul>
+    <li>-Kernel Upstreamed to 4.9.159</li>
+    <li>-DIsplayOC to 70 Hz</li>
+    <li>-GPU OC to 825MHz</li>
+    <li>-GPU UC to 180MHz</li>
+    <li>-400 Hz for Best Performance and Battery</li>
+    <li>-Added backlight max option</li>
+    <li>-Speculative Page Fault</li>
+    <li>-SImple GPU Algorithm</li>
+    <li>-Slimbus OC</li>
+    <li>-Android Simple Memory Killer</li>
+    <li>-FIxed HDR</li>
+    <li>-FIxed Issues with GDrive</li>
+    <li>-Optimatizations to Schedutil</li>
+    <li>-Battery and Performance Optimizations</li>
+</ul>
+        </div>
+    </div>
+    <div id='changeLog2' class="changeLog">
+        <div class='closeBar'>
+            <h1 onclick="closeCL(1)">&times;</h1>
+        </div>
+        <div class='changes'>
+<ul>
+    <li>-Reworked Kernel from Scratch</li>
+    <li>-Based on Pie LineageOS Source</li>
+    <li>-Linux Kernel Version 4.9.65</li>
+    <li>-Kernel Compatible with MIUI and Custom Roms</li>
+    <li>-Working Wifi on All Roms</li>
+    <li>-Working IR Camera on MIUI</li>
+    <li>-GPU OC TO 830 Mhz</li>
+    <li>-Display OC to 65 Hz</li>
+    <li>-Pixel 3 CPU energy costs</li>
+    <li>-No More Random Reboots</li>
+    <li>-Boeffla WakeLock Blocker</li>
+    <li>-Kcal Color Control</li>
+    <li>-Performance And Battery Improvements</li>
+    <li>-FIOPS IO Scheduler</li>
+    <li>-SIO IO Scheduler</li>
+    <li>-Zen IO Scheduler</li>
+    <li>-Maple IO Scheduler</li>
+    <li>-Dynamic Stune Boost</li>
+    <li>-Cpu Input Boost</li>
+    <li>-DevFreq Boost</li>
+    <li>-AdrenoBoost</li>
+    <li>-Disabled CRC Check</li>
+    <li>-Disabled CPU Boost (we have CPU Input Boost)</li>
+    <li>-TCP Algorithms</li>
+    <li>-USB Fast Charge</li>
+</ul>
+        </div>
+    </div>
+    <div id='changeLog3' class="changeLog">
+        <div class='closeBar'>
+            <h1 onclick="closeCL(2)">&times;</h1>
+        </div>
+        <div class='changes'>
+<ul>
+    <li>-Reworked Kernel Source from Scratch</li>
+    <li>-Kernel Based on CAF 4.9 kernel source with linux-stable merged in</li>
+    <li>-Latest Linux Version 4.9.140</li>
+    <li>-Latest CAF Tag LA.UM.6.3.r4-05800-sdm845.0</li>
+    <li>-Working IR Camera and Wifi on All Roms </li>
+    <li>-CPU OC to 3.42 Ghz</li>
+    <li>-GPU OC to 833 Mhz</li>
+    <li>-DIsplay OC to 65Hz</li>
+    <li>-CPU Input Boost</li>
+    <li>-DevFreq Boost</li>
+    <li>-Pixel 3 CPU energy costs</li>
+    <li>-AdrenoBoost 2.1</li>
+    <li>-Updated Toucscreen Drivers (No More issues with Touch)</li>
+    <li>-Dynamic Schedtune Boost</li>
+    <li>-Quick Charge Up to 3000mA</li>
+    <li>-Added fsync on/off support</li>
+    <li>-Boeffla Wl Blocker</li>
+    <li>-Kcal Color Control</li>
+    <li>-Vibration Control</li>
+    <li>-FIOPS IO Scheduler</li>
+    <li>-SIO IO Scheduler</li>
+    <li>-Zen IO Scheduler</li>
+    <li>-TripnDroid IO Scheduler</li>
+    <li>-Mic Gain Option</li>
+    <li>-Maple IO Scheduler</li>
+    <li>-CPU Boost Enabled</li>
+    <li>-Disabled CRC Check</li>
+    <li>-TCP Algorithms</li>
+    <li>-USB Fast Charge</li>
+    <li>-Added Frandom</li>
+    <li>-500 Hz Timer for Optimal Performance and Battery</li>
+    <li>-Reduced Latency</li>
+    <li>-Tweaked Westwood TCP Algorithm(default)</li>
+    <li>-Performance and Battery Tweaks</li>
+</ul>
+        </div>
+    </div>
+        <div id='changeLog4' class="changeLog">
+        <div class='closeBar'>
+            <h1 onclick="closeCL(3)">&times;</h1>
+        </div>
+        <div class='changes'>
+<ul>
+    <li>-Reworked Kernel Source Again</li>
+    <li>-Latest Linux Kernel Version 4.9.142</li>
+    <li>-Updated TouchScreen Latest Drivers (No more Touch Issues)</li>
+    <li>-Updated Audio Drivers from Latest Firmware</li>
+    <li>-Finally Fixed Random Rebooting Issue</li>
+    <li>-Working IR Camera and Wifi on All Roms</li>
+    <li>-GPU OC to 825 Mhz</li>
+    <li>-Display OC to 65 Hz</li>
+    <li>-Dynamic Schedtune Boost</li>
+    <li>-Quick Charge Up to 3000mA</li>
+    <li>-USB fast charge</li>
+    <li>-Boeffla Wakelock Blocker </li>
+    <li>-Added fsync on/off support</li>
+    <li>-Disabled CRC check</li>
+    <li>-KCAL Color Control</li>
+    <li>-Sound Control</li>
+    <li>-Vibration Control</li>
+    <li>-Fiops IO Scheduler</li>
+    <li>-SIO IO Scheduler</li>
+    <li>-Zen IO Scheduler</li>
+    <li>-Maple IO Scheduler</li>
+    <li>-TripnDroid IO Scheduler</li>
+    <li>-Enabled CPU Boost </li>
+    <li>-TCP Algorithms</li>
+    <li>-USB Fast Charge</li>
+    <li>-Added Frandom</li>
+    <li>-Backlight Min Option</li>
+    <li>-Reduced Latency</li>
+    <li>-Tweaked ZRAM</li>
+    <li>-Tweaked Westwood TCP Algorithm(default)</li>
+    <li>-500 Hz Timer for optimal Performance and Batttery</li>
+    <li>-Disabled Unused Governors</li>
+    <li>-Lot Performance and Battery Optimizations</li>
+</ul>
+        </div>
+    </div>
+             <div id='changeLog5' class="changeLog">
+        <div class='closeBar'>
+            <h1 onclick="closeCL(4)">&times;</h1>
+        </div>
+        <div class='changes'>
+<ul>
+    <li>-Fixed charging issues</li>
+</ul>
+        </div>
+    </div>
+        <div id='changeLog6' class="changeLog">
+        <div class='closeBar'>
+            <h1 onclick="closeCL(5)">&times;</h1>
+        </div>
+        <div class='changes'>
+<ul>
+    <li>-GPU OC to 833 Mhz</li>
+    <li>-GPU Underclock to 180 Mhz</li>
+    <li>-Display OC to 70 Hz</li>
+    <li>-Improved Touchscreen Lag</li>
+    <li>-Performance and Battery improvements</li>
+</ul>
+        </div>
+    </div>
+        <div id='changeLog7' class="changeLog">
+        <div class='closeBar'>
+            <h1 onclick="closeCL(6)">&times;</h1>
+        </div>
+        <div class='changes'>
+<ul>
+    <li>-Updated TouchScreen Latest Drivers (No more Touch Issues)
+</li>
+    <li>-Updated Audio Drivers from Latest Firmware</li>
+    <li>-Working IR Camera and Wifi on All Roms</li>
+    <li>-Zram disabled</li>
+    <li>-Added Fsync on/off support</li>
+     <li>-Reduced Latency</li>
+     <li>-Display OC to 70Hz</li>
+     <li>-Disable CRC check</li>
+     <li>-Added and enabled Boeffla V1.1.0</li>
+     <li>-Added Blu_Schedutil</li>
+     <li>-Lot Performance and Battery Optimizations</li>
+</ul>
+        </div>
+    </div>
+        <div id='changeLog8' class="changeLog">
+        <div class='closeBar'>
+            <h1 onclick="closeCL(7)">&times;</h1>
+        </div>
+        <div class='changes'>
+<ul>
+    <li>-GPU OC to 786 MHz</li>
+    <li>-GPU Underclock to 180 MHz</li>
+    <li>-Lot Performance and Battery Optimizations</li>
+</ul>
+        </div>
+    </div>
+        <div id='changeLog9' class="changeLog">
+        <div class='closeBar'>
+            <h1 onclick="closeCL(8)">&times;</h1>
+        </div>
+        <div class='changes'>
+<ul>
+    <li>-Added Sound Control</li>
+    <li>-Added KCAL Control</li>
+    <li>-More optimizations</li>
+</ul>
+        
+        </div>
+    </div>
+        <div id='changeLog10' class="changeLog">
+        <div class='closeBar'>
+            <h1 onclick="closeCL(9)">&times;</h1>
+        </div>
+        <div class='changes'>
+        <ul>
+    <li>FOR ROMS THAT SUPPORT UPSTREAM TO V4.9.149</li>
+    <li>-Kernel Based on LineageOS Source</li>
+    <li>-Kernel Compiled with AOSP Clang</li>
+    <li>-Kernel Upstreamed to 4.9.149</li>
+    <li>-Latest CAF LA.UM.7.3.r1-06600-sdm845.0</li>
+    <li>-Imported Firmware Changes from Xiaomi Pie Source</li>
+    <li>-TouchScreen Drivers from Xiaomi Pie Source</li>
+    <li>-GPU OC to 838 Mhz</li>
+    <li>-Display OC to 65 Hz</li>
+    <li>-Energy Model from Pixel 3</li>
+    <li>-Boeffla WakeLock Blocker</li>
+    <li>-Fsync On/Off Support</li>
+    <li>-Kcal Color Control</li>
+    <li>-Sound Control</li>
+    <li>-Vibration Control</li>
+    <li>-Disabled CRC Check</li>
+    <li>-Reduced Latency</li>
+    <li>-Quick Charge up to 3200mA</li>
+    <li>-USB Fast Charge</li>
+    <li>-Anxiety IO Scheduler</li>
+    <li>-Fiops IO Scheduler</li>
+    <li>-SIO IO Scheduler</li>
+    <li>-Zen IO Scheduler</li>
+    <li>-Maple IO Scheduler</li>
+    <li>-Frandom</li>
+    <li>-Host Performance Booster</li>
+    <li>-Tweaked Westwood TCP Algorithm(default)</li>
+     <li>-Lot Improvments to Scheduler</li>
+    <li>-Kat Kernel Ramdisk Script</li>
+    <li>-600 Hz for Best Performance and Battery</li>
+    <li>-Lot of Performance and Battery Optimizations</li>
+</ul>
+        
+        </div>
+    </div>
+        <div id='changeLog11' class="changeLog">
+        <div class='closeBar'>
+            <h1 onclick="closeCL(10)">&times;</h1>
+        </div>
+        <div class='changes'>
+        <ul>
+    <li>-Kernel Based on LineageOS Source</li>
+    <li>-Kernel Upstreamed to 4.9.155</li>
+    <li>-TouchScreen Drivers from 9.1.24</li>
+    <li>-Face unlock improved</li>
+    <li>-Camera improvements</li>
+    <li>-Imported Firmware Changes from Xiaomi Pie Source</li>
+    <li>-GPU OC to 825 Mhz and eXtended GPU Table</li>
+    <li>-Slimbus OC</li>
+    <li>-Display OC to 70 Hz</li>
+    <li>-Tweaked TripnDroid</li>
+    <li>-300Hz for Optimal Battery and Perf</li>
+    <li>-Added Smurfutil Governor</li>
+    <li>-3200mA FastCharge</li>
+    <li>-Pixutil Governor</li>
+    <li>-Blu_Schedutil Governor</li>
+    <li>-Smurfutil Governor</li>
+    <li>-Boeffla WakeLock Blocker</li>
+    <li>-Fsync On/Off Support</li>
+    <li>-Kcal Color Control</li>
+    <li>-Zram Control</li>
+    <li>-Sound Control</li>
+    <li>-Vibration Control</li>
+    <li>-Disabled CRC Check (you can enable in KA)</li>
+    <li>-AdrenoBoost 2.2</li>
+    <li>-Reduced Latency</li>
+    <li>-USB Fast Charge</li>
+    <li>-Noop I/O Scheduler</li>
+    <li>-Deadline I/O Scheduler</li>
+    <li>-CFQ I/O Scheduler</li>
+    <li>-Fiops I/O Scheduler</li>
+    <li>-SIO I/O Scheduler</li>
+    <li>-ZEN I/O Scheduler</li>
+    <li>-Anxiety I/O Scheduler</li>
+    <li>-Maple I/O Scheduler</li>
+    <li>-BFQ I/O Scheduler</li>
+    <li>-TripnDroid I/O Scheduler</li>
+    <li>-Frandom</li>
+    <li>-Tweaked Westwood TCP Algorithm(default)</li>
+    <li>-F2FS Support</li>
+    <li>-Lot Tcp ALgorithms (westwood,reno,bic,ip,vages,SocioPath)</li>
+    <li>-Reduced latency</li>
+    <li>-Lot Improvements to Scheduler</li>
+    <li>-Lot of Performance and Battery Optimizations</li>
+</ul>
+        
+
+    <div id='load'>
+        <img src="loading.gif">
+    </div>
+</body>     
+<script src="script.js"></script>
+
+</html>

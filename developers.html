@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="developers.css">
     <link rel="stylesheet" type="text/css" href="nav.css">
     <link rel="shortcut icon" type="image/png" href="logo.png" />
-    <title>Developers</title>
+    <title>Team</title>
     <meta name="keywords" content="aosp extended,download,aosp,aex,nougat,pie,oreo,android,custom rom,rom">
     <meta name="description" content="Download center | AospExtended">
     <meta property="og:title" content="Download center | AospExtended">
@@ -12,16 +12,16 @@
     <meta property="og:site_name" content="Download center | AospExtended">
     <meta property="og:image" content="https://downloads.aospextended.com/assets/aexlogo.png">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=yes">
-    <meta name="theme-color" content="#332d4f">
+    <meta name="theme-color" content="#a51919">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 </head>
 
-<body>
-    <nav id='navContain' class="closeNav">
-        <section id='logoArea'>
-            <h1>eXtremeKernel</h1>
+  <nav id='navContain' class="closeNav" style="z-index:1">
+        <section id='logoArea'>           
+            <h1 class="animated fadeinleft">eXtremeKernel</h1> 
             <div id='navDeactivator' onclick="removeNav()">
-                <h2>&#9668;</h2>
+                <h2>◄</h2>
             </div>
         </section>
 
@@ -29,16 +29,34 @@
             <a href='index.html'>
                 <li id='navEle1' class="navEle">
                     <div class='wrap'>
-                        <img src="home.png" />
-                        <h2>Home</h2>
+                        <img class="animated zoomin"src="home.png" />
+                        <h2 class="animated slideInLeft ">Home</h2>
                     </div>
                 </li>
             </a>
             <a href='developers.html'>
                 <li id='navEle1' class="navEle">
                     <div class='wrap'>
-                        <img src="devLogo.png" />
-                        <h2>Developers</h2>
+                        <img class="animated zoomin"src="devLogo.png" />
+                        <h2 class="animated slideInLeft ">Team</h2>
+                    </div>
+                </li>
+            </a>
+
+                        <a href='fund.html'>
+                <li id='navEle1' class="navEle">
+                    <div class='wrap'>
+                        <img class="animated zoomin"src="FUND.png" />
+                        <h2 class="animated slideInLeft ">Fundraise</h2>
+                    </div>
+                </li>
+            </a>
+
+                        <a href='help.html'>
+                <li id='navEle1' class="navEle">
+                    <div class='wrap'>
+                        <img class="animated zoomin"src="help.png" />
+                        <h2 class="animated slideInLeft ">Help</h2>
                     </div>
                 </li>
             </a>
@@ -46,9 +64,9 @@
 
             <li onclick="displayNthDevice(0)" id='navEle2' class="navEle">
                 <div class='wrap'>
-                    <img src="phone.png" />
-                    <h2>Xiaomi</h2>
-                    <h3>&#9660;</h3>
+                    <img class="animated zoomin"src="phone.png" />
+                        <h2 class="animated slideInLeft ">Xiaomi</h2>
+                    <h3 class="animated swing">▼</h3>
                 </div>
                 <ul id='deviceList1' class="deviceList deviceListClosed">
                     <li class="device">
@@ -63,8 +81,8 @@
                     </li>
                         <li class="device">
                             <a href='beryllium.html'>
-                                <h4>Poco F1 (beryllium)</h4>
-                            </a>					
+                                <h4 class="animated zoomin">Poco F1 (beryllium)</h4>
+                            </a>                    
                     <li class="device">
                             <a href='vince.html'>
                             <h4>Redmi 5 Plus (vince)</h4>
@@ -75,15 +93,35 @@
                         </a>
                     <li class="device">
                             <a href='polaris.html'>
-                            <h4>MI Mix 2S (polaris)</h4>
-                        </a>						
+                            <h4>Mix 2S (polaris)</h4>
+                        </a>    
+                    <li class="device">
+                            <a href='mi8pro.html'>
+                            <h4>MI 8 Pro (equuleus)</h4>
+                        </a>
+                    <li class="device">
+                            <a href='mix3.html'>
+                            <h4>Mix 3 (perseus)</h4>
+                        </a>
+                    <li class="device">
+                            <a href='mi8ee.html'>
+                            <h4>MI 8 EE (ursa)</h4>
+                        </a>
+                    <li class="device">
+                            <a href='mi9.html'>
+                            <h4>MI 9 (cepheus)</h4>
+                        </a>    
+                    <li class="device">
+                            <a href='markw.html'>
+                            <h4>Redmi Note 4 Prime (markw)</h4>
+                        </a>                            
                         </li>
                     </li>
                 </ul>
             </li>
         </ul>
-    </nav>
 
+    </nav>
     <main>
         <div id='downloadCenter'>
             <div id='navActivator' onclick="displayNav()">
@@ -91,8 +129,10 @@
             </div>
         </div>
 
+
+
         <div id='main'>
-            <ul id='alekdev' class="developer">
+            <ul id='alekdev' class="developer animated slideInLeft">
                 <li>
                     <img src="https://avatars2.githubusercontent.com/u/41843789?s=460&v=4">
                 </li>
@@ -100,7 +140,7 @@
                     <h1>Alek Dev</h1>
                 </li>
                 <li>
-                    <h4>CEO & Founder</h4>
+                    <h4>CEO & Founder & Lead Developer</h4>
                 </li>
                 <li>
                     <h2>Lead Developer & Project Head of eXtremeKernel</h2>
@@ -108,9 +148,12 @@
                 <li class="middled">
                     <h2><a href='https://t.me/Alekdev'>Telegram</a></h2>
                 </li>
+                                <li class="middled">
+                    <h2><a href='https://www.paypal.me/AlekDevDonate'>Donate</a></h2>
+                </li>
             </ul>
 
-            <ul id='cheewaka' class="developer">
+            <ul id='cheewaka' class="developer animated slideInLeft"">
                 <li>
                     <img src="https://avatars1.githubusercontent.com/u/42944307?s=460&v=4">
                 </li>
@@ -121,81 +164,19 @@
                     <h4>Developer & Maintainer</h4>
                 </li>
                 <li>
-                    <h2>Developer & Maintainer for MI A1,Redmi Note4</h2>
+                    <h2>Developer & Maintainer for MI A1 and Redmi Note4,Redmi Note4 Prime</h2>
                 </li>
                 <li class="middled">
                     <h2><a href='https://t.me/Cheewaca'>Telegram</a></h2>
                 </li>
-            </ul>
-            <ul id='cheewaka' class="developer">
-                <li>
-                    <img src="https://avatars1.githubusercontent.com/u/39719295?s=460&v=4">
-                </li>
-                <li>
-                    <h1>TheHitMan7</h1>
-                </li>
-                <li>
-                    <h4>Developer & Maintainer</h4>
-                </li>
-                <li>
-                    <h2>Developer & Maintainer for MI A1,Redmi Note4</h2>
-                </li>
-                <li class="middled">
-                    <h2><a href='https://t.me/TheHitMan7'>Telegram</a></h2>
+                                <li class="middled">
+                    <h2><a href='http://paypal.me/Cheewaca'>Donate</a></h2>
                 </li>
             </ul>
-            <ul id='cheewaka' class="developer">
-                <li>
-                    <img src="https://avatars2.githubusercontent.com/u/7190697?s=460&v=4">
-                </li>
-                <li>
-                    <h1>NATO66613</h1>
-                </li>
-                <li>
-                    <h4>Developer & Maintainer</h4>
-                </li>
-                <li>
-                    <h2>Developer & Maintainer for POCO F1</h2>
-                </li>
-                <li class="middled">
-                    <h2><a href='https://t.me/NATO66613'>Telegram</a></h2>
-                </li>
-            </ul>
-            <ul id='cheewaka' class="developer">
-                <li>
-                    <img src="https://avatars0.githubusercontent.com/u/45213151?s=460&v=4">
-                </li>
-                <li>
-                    <h1>Archantium</h1>
-                </li>
-                <li>
-                    <h4>Developer & Maintainer</h4>
-                </li>
-                <li>
-                    <h2>Developer & Maintainer for POCO F1</h2>
-                </li>
-                <li class="middled">
-                    <h2><a href='https://t.me/Archantium'>Telegram</a></h2>
-                </li>
-            </ul>
-            <ul id='cheewaka' class="developer">
-                <li>
-                    <img src="https://avatars1.githubusercontent.com/u/13873974?s=460&v=4">
-                </li>
-                <li>
-                    <h1>Mantas</h1>
-                </li>
-                <li>
-                    <h4>Developer & Maintainer</h4>
-                </li>
-                <li>
-                    <h2>Developer & Maintainer for POCO F1</h2>
-                </li>
-                <li class="middled">
-                    <h2><a href='https://t.me/Mantas_2155X'>Telegram</a></h2>
-                </li>
-            </ul>
-            <ul id='cheewaka' class="developer">
+
+
+
+            <ul id='cheewaka' class="developer animated slideInLeft">
                 <li>
                     <img src="https://avatars3.githubusercontent.com/u/45215115?s=460&v=4">
                 </li>
@@ -206,31 +187,42 @@
                     <h4>Developer & Maintainer</h4>
                 </li>
                 <li>
-                    <h2>Developer & Maintainer for MI 8,POCO F1,MIX2S</h2>
+                    <h2>Developer & Maintainer for Xiaomi (MI8.Poco,Mix3..)</h2>
                 </li>
                 <li class="middled">
                     <h2><a href='https://t.me/Patrontrox'>Telegram</a></h2>
                 </li>
+                                <li class="middled">
+                    <h2><a href='http://paypal.me/Patrontrox'>Donate</a></h2>
+                </li>
             </ul>
-            <ul id='cheewaka' class="developer">
+
+
+
+                                                <ul id='cheewaka' class="developer animated slideInLeft">
                 <li>
-                    <img src="https://avatars0.githubusercontent.com/u/41391151?s=460&v=4">
+                    <img src="https://avatars2.githubusercontent.com/u/48100342?s=460&v=4">
                 </li>
                 <li>
-                    <h1>ska7</h1>
+                    <h1>Hellvyn</h1>
                 </li>
                 <li>
-                    <h4>Developer & Maintainer</h4>
+                    <h4>Master Guy</h4>
                 </li>
                 <li>
-                    <h2>Developer & Maintainer for Xiaomi Redmi 5 Plus</h2>
+                    <h2>Our Guy which Helps with Everything!</h2>
                 </li>
                 <li class="middled">
-                    <h2><a href='https://t.me/extinguishtheFIRE'>Telegram</a></h2>
+                    <h2><a href='https://t.me/hellvyn'>Telegram</a></h2>
+                </li>
+                                <li class="middled">
+                    <h2><a href='https://www.paypal.me/AlekDevDonate''>Donate</a></h2>
                 </li>
             </ul>
+
+
 			
-						            <ul id='cheewaka' class="developer">
+						            <ul id='cheewaka' class="developer animated slideInLeft">
                 <li>
                     <img src="https://avatars1.githubusercontent.com/u/45973516?s=460&v=4">
                 </li>
@@ -241,30 +233,18 @@
                     <h4>Designer</h4>
                 </li>
                 <li>
-                    <h2>Our eXtreme Designer Guy for All Stuff!</h2>
+                    <h2>Our Designer Guy!</h2>
                 </li>
                 <li class="middled">
                     <h2><a href='https://t.me/diimyze'>Telegram</a></h2>
                 </li>
+                                <li class="middled">
+                    <h2><a href='https://www.paypal.me/dealvidit'>Donate</a></h2>
+                </li>
             </ul>
+
 			
-			            <ul id='cheewaka' class="developer">
-                <li>
-                    <img src="https://avatars2.githubusercontent.com/u/31922392?s=460&v=4">
-                </li>
-                <li>
-                    <h1>NotAllan</h1>
-                </li>
-                <li>
-                    <h4>Designer</h4>
-                </li>
-                <li>
-                    <h2>Our eXtreme Designer Guy for All Stuff</h2>
-                </li>
-                <li class="middled">
-                    <h2><a href='https://t.me/NotAllan'>Telegram</a></h2>
-                </li>
-            </ul>
+
         </div>
         <div id='footer'>
             <h2>
