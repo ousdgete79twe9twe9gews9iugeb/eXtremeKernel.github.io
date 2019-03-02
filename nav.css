@@ -12,8 +12,7 @@ nav {
 
 nav h1 {
     text-align: center;
-    color: #a51919
-;
+    color: #a51919;
 }
 
 nav img {
@@ -60,10 +59,19 @@ nav h3:hover {
 nav h4 {
     color: #FFF;
     font-size: 0.8em;
+    display: inline;
 }
 
 .device a {
     text-decoration: none;
+}
+
+.device a img{
+    display: inline-block;
+    margin: 0px;
+    margin-bottom: -0.3em;
+    width: 1.2em;
+    height: 1.2em;
 }
 
 .device {
